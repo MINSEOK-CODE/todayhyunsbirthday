@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f0; /* 연분홍 배경색 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amatic SC';
+    background-image: url('path_to_your_pattern_image.png'); /* 은은한 패턴 이미지 사용 */
+    background-size: cover; /* 배경 이미지가 화면을 덮도록 설정 */
+    background-position: center;
+    
+}
+
+nav {
+    width: 100%;
+    background-color: #ffb6c1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    padding: 15px 20px; /* 더 넉넉한 패딩 */
+    border-radius: 20px; /* 둥근 모서리 */
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff85a1; /* 마우스 올렸을 때 좀 더 진한 연분홍 */
+    border-radius: 5px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 80px; /* 네비게이션 바 공간 확보 */
+    max-width: 600px;
+}
+
+h1 {
+    color: #ff85a1; /* 연분홍색으로 유지 */
+    font-size: 2.5em; /* 크기를 키움 */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* 부드러운 텍스트 그림자 추가 */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ff85a1;
+    font-size: 1.2em;
+    margin-bottom: 40px; /* 텍스트 하단 간격 추가 */
+    line-height: 1.5; /
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* 이미지를 중앙으로 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    margin-top: 20px;
+    
+}
+
+.image-container img {
+    width: 80%; /* 이미지 크기를 더 크게 설정 (화면의 80%) */
+    max-width: 600px; /* 최대 너비 제한 */
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 더 깊은 그림자로 입체감 추가 */
+    border: 5px solid #ffdde1; /* 연분홍색 테두리 추가 */
+    
+}
+
+.image-container img:hover {
+    transform: scale(1.05); 
+}
+
+.button-container {
+    margin-top: 40px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff85a1; /* 버튼 색상 */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px; /* 둥근 버튼 */
+    font-size: 1.2em;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #ff6381;
+    transform: translateY(-3px); /* 살짝 위로 올라가는 효과 */
+}
+
+footer {
+    background-color: #ffb6c1;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: white;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 살짝 그림자 추가 */
+}
